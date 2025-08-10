@@ -1,0 +1,44 @@
+/* Google Fonts Import (Optional, matches portal style) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Reset and Base Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container (glassmorphism effect) */
+.login-container {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 4px 24px rgba(42, 35, 77, 0.18);
+    padding: 40px 30px 30px 30px;
+    text-align: center;
+    width: 340px;
+    backdrop-filter: blur(8px);
+}
+
+.login-container h1 {
+    color: #fff;
+    margin-bottom: 28px;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+}
+
+/* Login Options */
+.login-options {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+/* Login Card Styles */
+.login-card {
+    background: #fff;
+    color: #222;
+    text-decoration: none
